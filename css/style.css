@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+hr {
+    margin: 16px 0;
+    border: 2px solid black;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 0;
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.newspaper-name {
+    padding: 0px 32px;
+}
+
+.newspaper-name h1 {
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.issue p:first-of-type::first-letter {
+    font-size: 200%;
+    color: #0015ff;
+    font-weight: bolder;
+}
+
+.issue small {
+    padding-left: 16px;
+}
+
+.issue {
+    width: 300px;
+    border-left: 3px solid Black;
+    text-align: right;
+}
+
+.three-column-layout,
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0px;
+}
+
+.col-3 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-3 h3 {
+    margin-bottom: 16px;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+.two-column-layout article {
+    padding-left: 32px;
+}
+
+.two-column-layout article h1 {
+    text-transform: uppercase;
+    color: #0015ff;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+
+.two-column-layout article h4 {
+    margin-bottom: 16px;
+}
+
+
+ol {
+    padding-left: 16px;
+}
+
+footer {
+    text-align: center;
+}
